@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3FE49E11B9A92D600B91056 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FE49E01B9A92D600B91056 /* main.m */; };
+		D3FE49E41B9A92D600B91056 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FE49E31B9A92D600B91056 /* AppDelegate.m */; };
+		D3FE49E71B9A92D600B91056 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FE49E61B9A92D600B91056 /* ViewController.m */; };
+		D3FE49EA1B9A92D600B91056 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3FE49E81B9A92D600B91056 /* Main.storyboard */; };
+		D3FE49EC1B9A92D600B91056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3FE49EB1B9A92D600B91056 /* Assets.xcassets */; };
+		D3FE49EF1B9A92D600B91056 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3FE49ED1B9A92D600B91056 /* LaunchScreen.storyboard */; };
+		D3FE49F41B9A92D700B91056 /* Watch Basic Scrolling WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D3FE49F31B9A92D700B91056 /* Watch Basic Scrolling WatchKit App.app */; };
+		D3FE49FA1B9A92D700B91056 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3FE49F81B9A92D700B91056 /* Interface.storyboard */; };
+		D3FE49FC1B9A92D700B91056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3FE49FB1B9A92D700B91056 /* Assets.xcassets */; };
+		D3FE4A031B9A92D700B91056 /* Watch Basic Scrolling WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D3FE4A021B9A92D700B91056 /* Watch Basic Scrolling WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D3FE4A0C1B9A92D700B91056 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FE4A0B1B9A92D700B91056 /* ExtensionDelegate.m */; };
+		D3FE4A0E1B9A92D700B91056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3FE4A0D1B9A92D700B91056 /* Assets.xcassets */; };
+		D3FE4A261B9A9A9A00B91056 /* WatchTableInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FE4A251B9A9A9A00B91056 /* WatchTableInterfaceController.m */; settings = {ASSET_TAGS = (); }; };
+		D3FE4A291B9AA04900B91056 /* WatchTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FE4A281B9AA04800B91056 /* WatchTableRow.m */; settings = {ASSET_TAGS = (); }; };
+		D3FE4A2A1B9AA2BD00B91056 /* WatchTableInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FE4A251B9A9A9A00B91056 /* WatchTableInterfaceController.m */; settings = {ASSET_TAGS = (); }; };
+		D3FE4A2B1B9AA35300B91056 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3FE49F81B9A92D700B91056 /* Interface.storyboard */; settings = {ASSET_TAGS = (); }; };
+		D3FE4A2C1B9AA9D700B91056 /* WatchTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FE4A281B9AA04800B91056 /* WatchTableRow.m */; settings = {ASSET_TAGS = (); }; };
+		D3FE4A2F1B9AAF3000B91056 /* HackathonInfoInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FE4A2E1B9AAF3000B91056 /* HackathonInfoInterfaceController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3FE49F51B9A92D700B91056 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3FE49D41B9A92D600B91056 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3FE49F21B9A92D700B91056;
+			remoteInfo = "Watch Basic Scrolling WatchKit App";
+		};
+		D3FE4A041B9A92D700B91056 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3FE49D41B9A92D600B91056 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3FE4A011B9A92D700B91056;
+			remoteInfo = "Watch Basic Scrolling WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D3FE4A151B9A92D700B91056 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D3FE4A031B9A92D700B91056 /* Watch Basic Scrolling WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FE4A191B9A92D700B91056 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D3FE49F41B9A92D700B91056 /* Watch Basic Scrolling WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D3FE49DC1B9A92D600B91056 /* Watch Basic Scrolling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Watch Basic Scrolling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FE49E01B9A92D600B91056 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3FE49E21B9A92D600B91056 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3FE49E31B9A92D600B91056 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3FE49E51B9A92D600B91056 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3FE49E61B9A92D600B91056 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3FE49E91B9A92D600B91056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3FE49EB1B9A92D600B91056 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3FE49EE1B9A92D600B91056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3FE49F01B9A92D600B91056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3FE49F31B9A92D700B91056 /* Watch Basic Scrolling WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Watch Basic Scrolling WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FE49F91B9A92D700B91056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D3FE49FB1B9A92D700B91056 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3FE49FD1B9A92D700B91056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3FE4A021B9A92D700B91056 /* Watch Basic Scrolling WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Watch Basic Scrolling WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FE4A0A1B9A92D700B91056 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		D3FE4A0B1B9A92D700B91056 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		D3FE4A0D1B9A92D700B91056 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3FE4A0F1B9A92D700B91056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3FE4A1D1B9A949B00B91056 /* Watch Basic Scrolling.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Watch Basic Scrolling.entitlements"; sourceTree = "<group>"; };
+		D3FE4A241B9A9A9A00B91056 /* WatchTableInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WatchTableInterfaceController.h; path = "../Watch Basic Scrolling WatchKit App/WatchTableInterfaceController.h"; sourceTree = "<group>"; };
+		D3FE4A251B9A9A9A00B91056 /* WatchTableInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WatchTableInterfaceController.m; path = "../Watch Basic Scrolling WatchKit App/WatchTableInterfaceController.m"; sourceTree = "<group>"; };
+		D3FE4A271B9AA04800B91056 /* WatchTableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WatchTableRow.h; path = "../Watch Basic Scrolling WatchKit App/WatchTableRow.h"; sourceTree = "<group>"; };
+		D3FE4A281B9AA04800B91056 /* WatchTableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WatchTableRow.m; path = "../Watch Basic Scrolling WatchKit App/WatchTableRow.m"; sourceTree = "<group>"; };
+		D3FE4A2D1B9AAF3000B91056 /* HackathonInfoInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HackathonInfoInterfaceController.h; sourceTree = "<group>"; };
+		D3FE4A2E1B9AAF3000B91056 /* HackathonInfoInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HackathonInfoInterfaceController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3FE49D91B9A92D600B91056 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FE49FF1B9A92D700B91056 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3FE49D31B9A92D600B91056 = {
+			isa = PBXGroup;
+			children = (
+				D3FE49DE1B9A92D600B91056 /* Watch Basic Scrolling */,
+				D3FE49F71B9A92D700B91056 /* Watch Basic Scrolling WatchKit App */,
+				D3FE4A061B9A92D700B91056 /* Watch Basic Scrolling WatchKit Extension */,
+				D3FE49DD1B9A92D600B91056 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3FE49DD1B9A92D600B91056 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3FE49DC1B9A92D600B91056 /* Watch Basic Scrolling.app */,
+				D3FE49F31B9A92D700B91056 /* Watch Basic Scrolling WatchKit App.app */,
+				D3FE4A021B9A92D700B91056 /* Watch Basic Scrolling WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3FE49DE1B9A92D600B91056 /* Watch Basic Scrolling */ = {
+			isa = PBXGroup;
+			children = (
+				D3FE4A1D1B9A949B00B91056 /* Watch Basic Scrolling.entitlements */,
+				D3FE49E21B9A92D600B91056 /* AppDelegate.h */,
+				D3FE49E31B9A92D600B91056 /* AppDelegate.m */,
+				D3FE49E51B9A92D600B91056 /* ViewController.h */,
+				D3FE49E61B9A92D600B91056 /* ViewController.m */,
+				D3FE49E81B9A92D600B91056 /* Main.storyboard */,
+				D3FE49EB1B9A92D600B91056 /* Assets.xcassets */,
+				D3FE49ED1B9A92D600B91056 /* LaunchScreen.storyboard */,
+				D3FE49F01B9A92D600B91056 /* Info.plist */,
+				D3FE49DF1B9A92D600B91056 /* Supporting Files */,
+			);
+			path = "Watch Basic Scrolling";
+			sourceTree = "<group>";
+		};
+		D3FE49DF1B9A92D600B91056 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3FE49E01B9A92D600B91056 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3FE49F71B9A92D700B91056 /* Watch Basic Scrolling WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D3FE49F81B9A92D700B91056 /* Interface.storyboard */,
+				D3FE49FB1B9A92D700B91056 /* Assets.xcassets */,
+				D3FE49FD1B9A92D700B91056 /* Info.plist */,
+			);
+			path = "Watch Basic Scrolling WatchKit App";
+			sourceTree = "<group>";
+		};
+		D3FE4A061B9A92D700B91056 /* Watch Basic Scrolling WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D3FE4A241B9A9A9A00B91056 /* WatchTableInterfaceController.h */,
+				D3FE4A251B9A9A9A00B91056 /* WatchTableInterfaceController.m */,
+				D3FE4A2D1B9AAF3000B91056 /* HackathonInfoInterfaceController.h */,
+				D3FE4A2E1B9AAF3000B91056 /* HackathonInfoInterfaceController.m */,
+				D3FE4A271B9AA04800B91056 /* WatchTableRow.h */,
+				D3FE4A281B9AA04800B91056 /* WatchTableRow.m */,
+				D3FE4A0A1B9A92D700B91056 /* ExtensionDelegate.h */,
+				D3FE4A0B1B9A92D700B91056 /* ExtensionDelegate.m */,
+				D3FE4A0D1B9A92D700B91056 /* Assets.xcassets */,
+				D3FE4A0F1B9A92D700B91056 /* Info.plist */,
+			);
+			path = "Watch Basic Scrolling WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3FE49DB1B9A92D600B91056 /* Watch Basic Scrolling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3FE4A1A1B9A92D700B91056 /* Build configuration list for PBXNativeTarget "Watch Basic Scrolling" */;
+			buildPhases = (
+				D3FE49D81B9A92D600B91056 /* Sources */,
+				D3FE49D91B9A92D600B91056 /* Frameworks */,
+				D3FE49DA1B9A92D600B91056 /* Resources */,
+				D3FE4A191B9A92D700B91056 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3FE49F61B9A92D700B91056 /* PBXTargetDependency */,
+			);
+			name = "Watch Basic Scrolling";
+			productName = "Watch Basic Scrolling";
+			productReference = D3FE49DC1B9A92D600B91056 /* Watch Basic Scrolling.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3FE49F21B9A92D700B91056 /* Watch Basic Scrolling WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3FE4A161B9A92D700B91056 /* Build configuration list for PBXNativeTarget "Watch Basic Scrolling WatchKit App" */;
+			buildPhases = (
+				D3FE49F11B9A92D700B91056 /* Resources */,
+				D3FE4A151B9A92D700B91056 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3FE4A051B9A92D700B91056 /* PBXTargetDependency */,
+			);
+			name = "Watch Basic Scrolling WatchKit App";
+			productName = "Watch Basic Scrolling WatchKit App";
+			productReference = D3FE49F31B9A92D700B91056 /* Watch Basic Scrolling WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D3FE4A011B9A92D700B91056 /* Watch Basic Scrolling WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3FE4A121B9A92D700B91056 /* Build configuration list for PBXNativeTarget "Watch Basic Scrolling WatchKit Extension" */;
+			buildPhases = (
+				D3FE49FE1B9A92D700B91056 /* Sources */,
+				D3FE49FF1B9A92D700B91056 /* Frameworks */,
+				D3FE4A001B9A92D700B91056 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Watch Basic Scrolling WatchKit Extension";
+			productName = "Watch Basic Scrolling WatchKit Extension";
+			productReference = D3FE4A021B9A92D700B91056 /* Watch Basic Scrolling WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3FE49D41B9A92D600B91056 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Amolak Nagi";
+				TargetAttributes = {
+					D3FE49DB1B9A92D600B91056 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = KM6HNCQH8C;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					D3FE49F21B9A92D700B91056 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					D3FE4A011B9A92D700B91056 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = D3FE49D71B9A92D600B91056 /* Build configuration list for PBXProject "Watch Basic Scrolling" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3FE49D31B9A92D600B91056;
+			productRefGroup = D3FE49DD1B9A92D600B91056 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3FE49DB1B9A92D600B91056 /* Watch Basic Scrolling */,
+				D3FE49F21B9A92D700B91056 /* Watch Basic Scrolling WatchKit App */,
+				D3FE4A011B9A92D700B91056 /* Watch Basic Scrolling WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3FE49DA1B9A92D600B91056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FE49EF1B9A92D600B91056 /* LaunchScreen.storyboard in Resources */,
+				D3FE49EC1B9A92D600B91056 /* Assets.xcassets in Resources */,
+				D3FE49EA1B9A92D600B91056 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FE49F11B9A92D700B91056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FE49FC1B9A92D700B91056 /* Assets.xcassets in Resources */,
+				D3FE49FA1B9A92D700B91056 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FE4A001B9A92D700B91056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FE4A2B1B9AA35300B91056 /* Interface.storyboard in Resources */,
+				D3FE4A0E1B9A92D700B91056 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3FE49D81B9A92D600B91056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FE49E71B9A92D600B91056 /* ViewController.m in Sources */,
+				D3FE4A291B9AA04900B91056 /* WatchTableRow.m in Sources */,
+				D3FE49E41B9A92D600B91056 /* AppDelegate.m in Sources */,
+				D3FE4A261B9A9A9A00B91056 /* WatchTableInterfaceController.m in Sources */,
+				D3FE49E11B9A92D600B91056 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FE49FE1B9A92D700B91056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FE4A0C1B9A92D700B91056 /* ExtensionDelegate.m in Sources */,
+				D3FE4A2C1B9AA9D700B91056 /* WatchTableRow.m in Sources */,
+				D3FE4A2A1B9AA2BD00B91056 /* WatchTableInterfaceController.m in Sources */,
+				D3FE4A2F1B9AAF3000B91056 /* HackathonInfoInterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3FE49F61B9A92D700B91056 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3FE49F21B9A92D700B91056 /* Watch Basic Scrolling WatchKit App */;
+			targetProxy = D3FE49F51B9A92D700B91056 /* PBXContainerItemProxy */;
+		};
+		D3FE4A051B9A92D700B91056 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3FE4A011B9A92D700B91056 /* Watch Basic Scrolling WatchKit Extension */;
+			targetProxy = D3FE4A041B9A92D700B91056 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3FE49E81B9A92D600B91056 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3FE49E91B9A92D600B91056 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3FE49ED1B9A92D600B91056 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3FE49EE1B9A92D600B91056 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D3FE49F81B9A92D700B91056 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3FE49F91B9A92D700B91056 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3FE4A101B9A92D700B91056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3FE4A111B9A92D700B91056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3FE4A131B9A92D700B91056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Watch Basic Scrolling WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Amolak-Nagi.Watch-Basic-Scrolling.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		D3FE4A141B9A92D700B91056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Watch Basic Scrolling WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Amolak-Nagi.Watch-Basic-Scrolling.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		D3FE4A171B9A92D700B91056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Watch_Basic_Scrolling_WatchKit_Extension;
+				INFOPLIST_FILE = "Watch Basic Scrolling WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Amolak-Nagi.Watch-Basic-Scrolling.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		D3FE4A181B9A92D700B91056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Watch_Basic_Scrolling_WatchKit_Extension;
+				INFOPLIST_FILE = "Watch Basic Scrolling WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Amolak-Nagi.Watch-Basic-Scrolling.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		D3FE4A1B1B9A92D700B91056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Watch Basic Scrolling/Watch Basic Scrolling.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Watch Basic Scrolling/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Amolak-Nagi.Watch-Basic-Scrolling";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		D3FE4A1C1B9A92D700B91056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Watch Basic Scrolling/Watch Basic Scrolling.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Watch Basic Scrolling/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Amolak-Nagi.Watch-Basic-Scrolling";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3FE49D71B9A92D600B91056 /* Build configuration list for PBXProject "Watch Basic Scrolling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FE4A101B9A92D700B91056 /* Debug */,
+				D3FE4A111B9A92D700B91056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3FE4A121B9A92D700B91056 /* Build configuration list for PBXNativeTarget "Watch Basic Scrolling WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FE4A131B9A92D700B91056 /* Debug */,
+				D3FE4A141B9A92D700B91056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3FE4A161B9A92D700B91056 /* Build configuration list for PBXNativeTarget "Watch Basic Scrolling WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FE4A171B9A92D700B91056 /* Debug */,
+				D3FE4A181B9A92D700B91056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3FE4A1A1B9A92D700B91056 /* Build configuration list for PBXNativeTarget "Watch Basic Scrolling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FE4A1B1B9A92D700B91056 /* Debug */,
+				D3FE4A1C1B9A92D700B91056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3FE49D41B9A92D600B91056 /* Project object */;
+}

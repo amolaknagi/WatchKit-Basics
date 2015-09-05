@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0700"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D3FE49F21B9A92D700B91056"
+               BuildableName = "Watch Basic Scrolling WatchKit App.app"
+               BlueprintName = "Watch Basic Scrolling WatchKit App"
+               ReferencedContainer = "container:Watch Basic Scrolling.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D3FE49DB1B9A92D600B91056"
+               BuildableName = "Watch Basic Scrolling.app"
+               BlueprintName = "Watch Basic Scrolling"
+               ReferencedContainer = "container:Watch Basic Scrolling.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D3FE4A011B9A92D700B91056"
+               BuildableName = "Watch Basic Scrolling WatchKit Extension.appex"
+               BlueprintName = "Watch Basic Scrolling WatchKit Extension"
+               ReferencedContainer = "container:Watch Basic Scrolling.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D3FE49F21B9A92D700B91056"
+            BuildableName = "Watch Basic Scrolling WatchKit App.app"
+            BlueprintName = "Watch Basic Scrolling WatchKit App"
+            ReferencedContainer = "container:Watch Basic Scrolling.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/Watch Basic Scrolling WatchKit App">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D3FE49F21B9A92D700B91056"
+            BuildableName = "Watch Basic Scrolling WatchKit App.app"
+            BlueprintName = "Watch Basic Scrolling WatchKit App"
+            ReferencedContainer = "container:Watch Basic Scrolling.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D3FE49F21B9A92D700B91056"
+            BuildableName = "Watch Basic Scrolling WatchKit App.app"
+            BlueprintName = "Watch Basic Scrolling WatchKit App"
+            ReferencedContainer = "container:Watch Basic Scrolling.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/Watch Basic Scrolling WatchKit App">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D3FE49F21B9A92D700B91056"
+            BuildableName = "Watch Basic Scrolling WatchKit App.app"
+            BlueprintName = "Watch Basic Scrolling WatchKit App"
+            ReferencedContainer = "container:Watch Basic Scrolling.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D3FE49F21B9A92D700B91056"
+            BuildableName = "Watch Basic Scrolling WatchKit App.app"
+            BlueprintName = "Watch Basic Scrolling WatchKit App"
+            ReferencedContainer = "container:Watch Basic Scrolling.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
